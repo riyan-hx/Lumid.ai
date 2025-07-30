@@ -28,13 +28,16 @@ With a soothing UI and intelligent backend, Lumid brings warmth to technology.
 
 ## 🖼 Screenshots
 
-### 💻 Desktop
-
-<img width="1919" height="944" alt="image" src="https://github.com/user-attachments/assets/d3826c53-4931-4dac-9537-9dad363a3c00" />
-
 ### 📱 Mobile
 
 <img width="498" height="941" alt="image" src="https://github.com/user-attachments/assets/df1cff3f-9232-4583-96ad-f53e08e5ac97" /> <img width="495" height="941" alt="image" src="https://github.com/user-attachments/assets/56874dd8-4fa2-446c-b6c1-0d5445f7c67d" />
+
+### 💻 Desktop
+
+<img width="1919" height="947" alt="image" src="https://github.com/user-attachments/assets/f2bcf758-8b94-41eb-8862-a46aaf6ad977" />
+
+
+
 
 
 
