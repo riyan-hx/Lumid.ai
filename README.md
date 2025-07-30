@@ -1,50 +1,61 @@
-# 🌿 Lumid.ai — Your AI-Powered Emotional Companion 💚
 
-**Lumid.ai** is your personal emotional support assistant 🤖, designed to help you feel heard, supported, and empowered. Whether you're feeling stressed, anxious, or just need a moment to breathe — Lumid is here for you.
+<h1 align="center">🌿 Lumid.ai — Your Emotional Wellness Companion 💚</h1>
 
-Built using **Next.js** for the frontend and powered by **FastAPI** + **ChatGPT** on the backend, Lumid delivers a calming, conversational experience that fits right into your daily routine.
+<p align="center">
+  <em>Gentle support, whenever you need it. Lumid helps you breathe, reflect, and grow — powered by AI.</em>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Built%20With-Next.js-blue?style=flat-square&logo=next.js" />
+  <img src="https://img.shields.io/badge/Powered%20By-FastAPI-green?style=flat-square&logo=fastapi" />
+  <img src="https://img.shields.io/badge/Chat-OpenAI-brightgreen?style=flat-square&logo=openai" />
+  <img src="https://img.shields.io/badge/Styled%20With-TailwindCSS-38b2ac?style=flat-square&logo=tailwind-css" />
+</p>
+
+---
+
+## ✨ What is Lumid?
+
+> **Lumid.ai** is a calming emotional support assistant that responds with empathy and kindness using OpenAI’s ChatGPT. Built using **Next.js** on the frontend and **FastAPI** on the backend, it’s designed to be your digital space for:
+>
+> 🌬️ Breathing  
+> 🖋️ Journaling  
+> 💖 Affirmations  
+> 🧠 Reframing Thoughts  
+
+With a soothing UI and intelligent backend, Lumid brings warmth to technology.
 
 ---
 
 ## 🌐 Live Preview
 
-> 🎯 Try it out: [**Lumid Frontend (Next.js)**](https://github.com/vaishnav4281/Lumid.ai)  
-> ⚙️ Backend powered by **FastAPI** & **OpenAI**, deployed via [**Render**](https://render.com)
+| Frontend | Backend |
+|---------|---------|
+| [🔗 Lumid.ai (Frontend)](https://github.com/vaishnav4281/Lumid.ai) | [⚙️ Render-deployed FastAPI](https://render.com) *(token protected)* |
 
 ---
 
-## ✨ Features That Support Your Mind
+## 🌸 Features You’ll Love
 
-🧘‍♀️ **Breathing Exercise**  
-Simple guided breathing to help you relax and refocus.
-
-📝 **Journal Thoughts**  
-Express your emotions in a safe space — no judgment, just clarity.
-
-💬 **Positive Affirmations**  
-Gentle words to uplift your confidence and self-worth.
-
-🧠 **Reframe Thoughts**  
-Shift negative thoughts to healthier, more constructive ones.
-
-💡 **Real Conversations**  
-Emotionally intelligent replies via GPT — always kind, always present.
-
-🌈 **Beautiful UI**  
-Clean, minimal, and soothing interface designed with **Tailwind CSS**.
-
-📱 **Fully Responsive**  
-Optimized for mobile, tablet, and desktop.
+| 🌿 Calm Features | 💻 Tech Stack |
+|------------------|---------------|
+| 🧘 Breathing exercises | ⚡️ Next.js |
+| 📔 Journaling interface | 🎨 Tailwind CSS |
+| 💬 AI-generated affirmations | 🧠 FastAPI |
+| 🔁 Thought reframing | 🤖 OpenAI ChatGPT |
+| 💚 Soft, responsive UI | 🌍 Deployed with Render |
 
 ---
 
-## 🖼 Interface Preview
+## 🖼 Screenshots
 
-### 💻 Desktop View
-![Desktop]()
+### 💻 Desktop
 
-### 📱 Mobile View
-![Mobile](./screenshots/mobile.png)
+![Desktop Preview](./screenshots/desktop.png)
+
+### 📱 Mobile
+
+![Mobile Preview](./screenshots/mobile.png)
 
 ---
 
@@ -53,80 +64,99 @@ Optimized for mobile, tablet, and desktop.
 ### 📦 Prerequisites
 
 - Node.js `v18+`
-- API backend (FastAPI with ChatGPT key)
-- Yarn or npm
+- `npm` or `yarn`
+- ChatGPT API + hosted backend (FastAPI)
 
-### 🛠 Installation
+### 🔧 Setup
 
-
+```bash
 git clone https://github.com/vaishnav4281/Lumid.ai.git
 cd Lumid.ai
-npm install   # or yarn
-🔐 Environment Setup
-Create a .env.local file:
+npm install     # or yarn
+```
 
-env
-Copy
-Edit
-NEXT_PUBLIC_API_URL=https://your-fastapi-url.onrender.com
-🧪 Start Development
-bash
-Copy
-Edit
-npm run dev   # or yarn dev
-Visit: http://localhost:3000
+### 🔐 Environment Variables
 
-🧩 Project Structure
-csharp
-Copy
-Edit
+Create a `.env.local` file and add your API URL:
+
+```env
+NEXT_PUBLIC_API_URL=https://your-api.onrender.com
+```
+
+### 🧪 Start Dev Server
+
+```bash
+npm run dev     # or yarn dev
+```
+
+Open [`http://localhost:3000`](http://localhost:3000) in your browser 🌱
+
+---
+
+## 📁 Project Structure
+
+```
 Lumid.ai/
-├── components/         # Reusable UI components
-├── pages/              # Next.js routing
-├── public/             # Static assets
-├── styles/             # Global & component-level styles
-├── utils/              # Utility functions
-├── .env.local          # API URL
-└── tailwind.config.ts  # TailwindCSS configuration
-🤝 Contribute to Lumid
-We welcome contributions! Whether it's bug fixes, new features, or just improving the UI — every bit helps. 💪
+├── components/         # Reusable components
+├── pages/              # App routes
+├── styles/             # Tailwind config & global CSS
+├── public/             # Assets & screenshots
+├── utils/              # Helper functions
+└── .env.local          # Environment secrets
+```
 
-Fork the repo
+---
 
-Create a new branch
+## 🤝 Contributing
 
-Make your changes
+We’d love your help! Lumid is open to new ideas, feature requests, and improvements.  
 
-Open a PR
+> ✨ “Your thoughts matter. Your voice matters.”
 
-🛡️ License
-MIT License
-© 2025 Vaishnav K
+To contribute:
 
-💬 Made With Empathy
-"You’re already good, my dear friend. Wanting to improve is proof of your strength." 💚
-— Lumid AI
+1. 🍴 Fork the repo  
+2. 🌿 Create a new branch  
+3. 🛠️ Make your changes  
+4. 🚀 Submit a pull request
 
-🧠 Backend Info
-The backend is a FastAPI server connected to the OpenAI API. It handles:
+---
 
-Chat interaction
+## 📜 License
 
-Sentiment/emotion parsing
+This project is licensed under the **MIT License**.  
+Feel free to use, fork, and build upon it with credit. 💫
 
-Token-secured endpoints for privacy
+---
 
-You can host it easily on Render, or your own server. If you’d like to contribute to the backend too, feel free to open an issue.
+## 💬 A Final Note
 
-📎 Extras
-🛠 Built with:
+> 🌼 *“You’re already enough. The desire to grow is a sign of strength, not weakness.”*
 
-Next.js
+Lumid was built with love, empathy, and a little magic from AI.  
+Take a breath. You're doing great. 💚
 
-Tailwind CSS
+---
 
-OpenAI API
+## 🧠 Backend Repo (Coming Soon)
 
-FastAPI
+The FastAPI backend handles:
+- Secure ChatGPT communication  
+- Emotion parsing  
+- Token-based access
 
-Render
+Interested in backend contribution? Ping us or open an issue.
+
+---
+
+## 📎 Built With
+
+- [Next.js](https://nextjs.org/)
+- [FastAPI](https://fastapi.tiangolo.com/)
+- [OpenAI GPT](https://openai.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Render](https://render.com/)
+
+---
+
+<p align="center"><b>🌿 Built with care by <a href="https://github.com/vaishnav4281">Vaishnav K</a></b></p>
