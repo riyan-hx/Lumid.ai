@@ -58,7 +58,7 @@ Optimized for mobile, tablet, and desktop.
 
 ### 🛠 Installation
 
-```bash
+
 git clone https://github.com/vaishnav4281/Lumid.ai.git
 cd Lumid.ai
 npm install   # or yarn
